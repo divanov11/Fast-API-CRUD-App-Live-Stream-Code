@@ -32,3 +32,5 @@ uvicorn main:app --reload --port <PORT>
 ```
 where the `<PORT>` is a number of your choosing.
 For the rest of the options when running a uvicorn app, visit https://www.uvicorn.org/#command-line-options.
+
+In case you would like to use built-in Swagger UI, then you can add `/docs#` at the end of the URL.
